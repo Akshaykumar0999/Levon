@@ -1,0 +1,12 @@
+.red-card {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b1b1b1;
+    margin: 15px;
+}

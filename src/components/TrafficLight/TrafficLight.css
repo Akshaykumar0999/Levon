@@ -1,0 +1,61 @@
+.traffic-light-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background-color: #343434;
+    border: 1px solid #c4c4c4;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .light {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+    border: 2px solid #e9e9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .light.active.green {
+    background-color: green;
+  }
+  
+  .light.active.yellow {
+    background-color: yellow;
+  }
+  
+  .light.active.red {
+    background-color: red;
+  }
+  
+  .countdown {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .pedestrian-crossing {
+    margin-top: 30px;
+  }
+  
+  .pedestrian-button {
+    background-color: rgb(123, 123, 236);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .pedestrian-button:hover {
+    background-color: rgb(82, 82, 239);
+  }
+  
